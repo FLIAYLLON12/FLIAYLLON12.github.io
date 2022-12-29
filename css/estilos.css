@@ -1,0 +1,34 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+    background: rgb(255, 255, 255);   
+    font-family:"Oswald" ;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    float: left;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    padding: 12px 26px;
+    font-family:"Oswald" ;
+    font-size: 18px;
+}
+#menu{
+    background: rgba(183,222,237,1);
+background: -moz-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 12%, rgba(33,180,226,1) 65%, rgba(33,180,226,1) 71%, rgba(183,222,237,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(183,222,237,1)), color-stop(12%, rgba(113,206,239,1)), color-stop(65%, rgba(33,180,226,1)), color-stop(71%, rgba(33,180,226,1)), color-stop(100%, rgba(183,222,237,1)));
+background: -webkit-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 12%, rgba(33,180,226,1) 65%, rgba(33,180,226,1) 71%, rgba(183,222,237,1) 100%);
+background: -o-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 12%, rgba(33,180,226,1) 65%, rgba(33,180,226,1) 71%, rgba(183,222,237,1) 100%);
+background: -ms-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 12%, rgba(33,180,226,1) 65%, rgba(33,180,226,1) 71%, rgba(183,222,237,1) 100%);
+background: linear-gradient(to bottom, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 12%, rgba(33,180,226,1) 65%, rgba(33,180,226,1) 71%, rgba(183,222,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=0 );
+    width: 430px;
+    height: 54px;
+}
