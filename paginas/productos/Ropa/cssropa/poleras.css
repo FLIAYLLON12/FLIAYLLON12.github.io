@@ -56,10 +56,9 @@ ul, ol{
     top: 0px;
 }
 #sa {
-    right:12px;
+    right: 12px;
     top: 0px;
 }
-#p {
-    right:58px;
-    top: 0px;
+#at{
+    position: fixed;
 }

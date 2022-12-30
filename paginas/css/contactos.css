@@ -20,6 +20,10 @@ ul, ol{
     width: auto;
     padding:15px 20px ;
     display: block;
+    text-decoration: none;
+}
+#menu{
+    float: none;
 }
 .nav li a:hover{
     background:#434343;
@@ -31,7 +35,7 @@ ul, ol{
 .nav li ul{
     display: none;
     position: absolute;
-    min-width: 140px;
+    min-width: 10px;
 }
 .nav li:hover > ul {
     display: block;
@@ -40,26 +44,37 @@ ul, ol{
     position: relative;
 }
 .nav li ul li ul {
-    right:-230px;
+    right:-140px;
     top: 0px;
 }
-#pb{
-    right: -8px;
+#d{
+    color: aliceblue;
+}
+#pb {
+    right:-9px;
     top: 0px;
 }
 #pc {
-    right:-13px;
+    right:-14px;
     top: 0px;
 }
 #cc {
-    right:39px;
+    right:-48px;
     top: 0px;
 }
 #sa {
-    right:12px;
+    right:-11px;
     top: 0px;
 }
 #p {
     right:58px;
     top: 0px;
+}
+#c{
+    color: #ff0000;
+    list-style: none;
+    text-decoration: none;
+
+    width: 190px;
+    padding: auto;
 }
