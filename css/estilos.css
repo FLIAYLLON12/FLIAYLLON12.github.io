@@ -76,25 +76,16 @@ ul, ol{
 
 /**Movil**/
 
-@media (max-width: 100px) {
-    .menu{
+@media (max-width: 767px) {
+    .desktop {
         display: none;
     }
 }
 
-
-/**Tablet**/
-
-@media (min-width: 100px) and (max-width: 110px) {
-    .menu{
-        display: none;
-    }
-}
-
-
+/**Escritorio**/
 
 @media (min-width: 991px) {
-    .menu {
+    .movil {
         display: none;
     }
 }
