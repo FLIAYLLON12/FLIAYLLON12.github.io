@@ -76,7 +76,7 @@ ul, ol{
 
 /**Movil**/
 
-@media (max-width: 767px) {
+@media (max-width: 700px) {
     .menu{
         display: none;
     }
