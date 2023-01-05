@@ -264,11 +264,11 @@ p {
     }
     .head {
         flex-direction: column;
-        height: 120px;
+        height: 20px;
         justify-content: space-evenly;
     }
-    .navbar{
-        float: right;
+    .logo{
+        width: 50px;
     }
 }
 
