@@ -264,12 +264,15 @@ p {
     }
     .head {
         flex-direction: column;
-        height: 20px;
+        height: 70px;
         justify-content: space-evenly;
     }
     .logo{
         width: 50px;
     }
+}
+div{
+    
 }
 
 /**Escritorio**/
