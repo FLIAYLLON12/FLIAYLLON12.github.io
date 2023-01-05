@@ -271,7 +271,7 @@ p {
         width: 90px;
     }
     .dropdown{
-        inline-block:
+        inline-size: relative;
     }
 }
 
