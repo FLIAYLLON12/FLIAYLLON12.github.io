@@ -267,6 +267,9 @@ p {
         height: 120px;
         justify-content: space-evenly;
     }
+    .navbar{
+        float: right;
+    }
 }
 
 /**Escritorio**/
