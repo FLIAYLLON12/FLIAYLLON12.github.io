@@ -246,3 +246,28 @@ p {
         display: none;
     }
 }
+#at{
+    color: #171717;
+    text-decoration-color: #000000;
+}
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+}
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .movil {
+        display: none;
+    }
+}
