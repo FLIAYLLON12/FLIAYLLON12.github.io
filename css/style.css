@@ -23,7 +23,7 @@ body {
 
 .navbar {
     display: flex;
-    margin-right: 10px;
+    margin-left: 5px;
 }
 
 .logo {
@@ -39,11 +39,11 @@ body {
 
 .navbar a {
     display: block;
-    padding: 10px 10px;
+    padding: 20px 10px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .navbar a:hover {
@@ -161,7 +161,7 @@ p {
 
 .box-container2 .box {
     width: 250px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     text-align: center;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
     background: #171717;
@@ -258,15 +258,20 @@ p {
 
 /**Movil**/
 
-@media (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .desktop {
         display: none;
+    }
+    .navbar{
+        flex-direction: column;
+
     }
 }
 
 /**Escritorio**/
 
 @media (min-width: 991px) {
+
     .movil {
         display: none;
     }
