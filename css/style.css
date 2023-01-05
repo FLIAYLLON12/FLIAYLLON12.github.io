@@ -268,11 +268,11 @@ p {
         justify-content: space-evenly;
     }
     .logo{
-        width: 50px;
+        width: 90px;
     }
-}
-div{
-    
+    .dropdown{
+        inline-block:
+    }
 }
 
 /**Escritorio**/
