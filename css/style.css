@@ -262,8 +262,10 @@ p {
     .desktop {
         display: none;
     }
-    .logo{
-        display: none;
+    .head {
+        flex-direction: column;
+        height: 120px;
+        justify-content: space-evenly;
     }
 }
 
@@ -274,4 +276,7 @@ p {
     .movil {
         display: none;
     }
+
+
+    
 }
