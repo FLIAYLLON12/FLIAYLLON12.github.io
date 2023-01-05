@@ -262,10 +262,6 @@ p {
     .desktop {
         display: none;
     }
-    .head{
-        flex-direction: column;
-
-    }
     .logo{
         display: none;
     }
