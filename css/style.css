@@ -263,7 +263,6 @@ p {
         display: none;
     }
     .head {
-        flex-direction: column;
         height: 90px;
         justify-content: space-evenly;
     }
