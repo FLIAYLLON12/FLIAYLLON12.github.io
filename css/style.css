@@ -273,6 +273,14 @@ p {
         inline-size: relative;
         float: left;
     }
+    .navbar a {
+        display: block;
+        padding: 20px 10px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
 }
 
 /**Escritorio**/
