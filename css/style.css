@@ -269,10 +269,7 @@ p {
     .logo{
         width: 90px;
     }
-    .dropdown{
-        inline-size: relative;
-        float: left;
-    }
+
     .navbar a {
         display: block;
         padding: 20px 10px;
