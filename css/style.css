@@ -263,7 +263,7 @@ p {
         display: none;
     }
     .head {
-        height: 90px;
+        height: 90%;
         justify-content: space-evenly;
     }
     .logo{
