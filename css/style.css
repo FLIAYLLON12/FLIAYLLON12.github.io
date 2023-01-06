@@ -324,7 +324,7 @@ p {
         margin-right: 5px;
     }
     .logo{
-        display: none;
+        align-items: center;
         width: 10px;
         height: -900px;
     }
