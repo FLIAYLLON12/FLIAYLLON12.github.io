@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 63px;
+    height: 100px;
     background: #000000;
     position: fixed;
     width: 100%;
@@ -23,7 +23,7 @@ body {
 
 .navbar {
     display: flex;
-    margin-right: 75em;
+    margin-right: 63px;
 }
 
 .logo {
@@ -34,7 +34,7 @@ body {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 3px
 }
 
 .navbar a {
@@ -249,4 +249,42 @@ p {
 #at{
     color: #171717;
     text-decoration-color: #000000;
+}
+/*grandes*/
+@media (max-width: 1200px){
+    body{
+        font-size: 14px;
+    }
+    .navbar{
+        font-size: 14px;
+    }
+}
+/*largos*/
+@media (max-width: 992px){
+    body{
+        font-size: 14px;
+    }
+    .head{
+        grid-template-areas:
+        'head' 'head' 'head'
+        '.navbar';
+    }
+}
+/*medianos*/
+@media (max-width: 768px){
+    body{
+        font-size: 14px;
+    }
+    .head{
+        font-size: 3px;
+    }
+}
+/*pequeños*/
+@media (max-width: 576px){
+    body{
+        font-size: 14px;
+    }
+    .head{
+        font-size: 14px;
+    }
 }
