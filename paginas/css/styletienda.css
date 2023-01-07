@@ -62,8 +62,8 @@ body {
     align-items: center;
     height: 60vh;
 
-    background-image: url(../img/logo2.png) ;
-    background-size: auto;
+    background-image: url(../img/fondo.png) ;
+    background-size: cover;
 }
 .title {
     margin-bottom: 40px;
