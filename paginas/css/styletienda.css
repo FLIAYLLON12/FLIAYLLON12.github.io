@@ -20,7 +20,14 @@ body {
     width: 100%;
     z-index: 100;
 }
-
+#ini{
+    color: #000000;
+    background-color: #b6b6b6;
+}
+#inid{
+    color: #171717;
+    background-color: #fff;
+}
 .navbar {
     display: flex;
     margin-right: 10px;
@@ -49,16 +56,15 @@ body {
 .navbar a:hover {
     background: #e91e63;
 }
-
 .header {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height: 60vh;
-    background: url(../img/header.png) no-repeat center;
-    background-size: cover;
-}
 
+    background-image: url(../img/logo2.png) ;
+    background-size: auto;
+}
 .title {
     margin-bottom: 40px;
     font-size: 60px;
@@ -118,18 +124,6 @@ p {
     margin: 20px;
 }
 
-.box-container .box i {
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 50%;
-    color: #fff;
-    background: #e91e63;
-    font-size: 25px;
-    margin: 10px 0;
-}
-
 .box-container .box h3 {
     font-size: 20px;
     color: #e91e63;
@@ -141,12 +135,14 @@ p {
 }
 
 .price {
-    background: url(../img/costos.png) no-repeat center;
-    background-size: cover;
+    background: url(../img/ubicacion.png) no-repeat center;
+    background-size: auto;
     background-attachment: fixed;
     text-align: center;
 }
-
+#ubi{
+    color: #000000;
+}
 .about {
     background: #303030;
     padding: 50px 0;
@@ -179,7 +175,7 @@ p {
 
 .box-container2 .box h3 {
     font-size: 20px;
-    color: #e91e63;
+    color: #171717;
     padding-top: 10px;
 }
 
